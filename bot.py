@@ -99,7 +99,7 @@ async def save_city(call: CallbackQuery):
         chat_id=call.message.chat.id,
         message_id=call.message.message_id,
         reply_markup=None
-    )
+    ) 
 
 
 executor.start_polling(dispatcher=dp, skip_updates=True)
