@@ -28,7 +28,7 @@ class Database:
                 params: tuple = None,
                 commit: bool = False,
                 fetchall: bool = False,
-                fetchone: bool = False) -> tuple | None:
+                fetchone: bool = False) -> tuple:
         """
         Returns tuple, where could be data from database or None if something is committed
         """
