@@ -123,7 +123,7 @@ db = Database(
     user=env.str('DB_USER'),
     password=env.str('DB_PASSWORD'),
     host=env.str('DB_HOST'),
-    port=env.str('DB_PORT'),
+    port=env.int('DB_PORT'),
 )
 
 db.create_users_table()
